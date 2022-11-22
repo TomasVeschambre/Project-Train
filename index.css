@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    background-image: url("./Media/anniv.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+@font-face {
+
+    font-family: 'Bougie';
+    src: url('./Media/HappyBirthday-Regular.ttf')
+}
+
+@font-face {
+    font-family: "balloon";
+    src: url('./Media/BalloonParty.ttf');
+
+}
+
+h1{
+    font-size: 6rem;
+    margin-top: 4rem;
+    font-family: Bougie;
+}
+
+.countdown-container{
+    display: flex;
+}
+
+.ballon{
+    font-family: balloon;
+    font-size: 30rem;
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 4rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+    margin-top: -2rem;
+
+}
+
+.countdown-el span{
+    font-size: 1.5rem;
+}
