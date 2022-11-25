@@ -3,7 +3,7 @@ let hoursEl = document.getElementById('hours')
 let minEl = document.getElementById('min')
 let secondEl = document.getElementById('second')
 
-let birthday = '23 Nov 2022'
+let birthday = '23 Nov 2023'
 function countdown(){
     let birthdayDate = new Date(birthday)
     let currentDate = new Date()
