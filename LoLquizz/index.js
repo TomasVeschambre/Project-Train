@@ -102,7 +102,7 @@ function getRandomInt(max) {
 }
 
 function choice(elem){
-    var input = document.getElementById("in").value;
+    let input = document.getElementById("in").value;
     playerChoice = `${input} ${elem.value}`
     console.log(playerChoice, quizData[currentQuiz].correct)
     if(playerChoice !== quizData[currentQuiz].correct){
@@ -113,6 +113,7 @@ function choice(elem){
         score++;
         numberQuestionAsked++;
         quizaData = quizData.splice(currentQuiz,1)
+        document.getElementById("in").value = ""
     }
     if(numberQuestionAsked==17){
         document.querySelector('#show-result').innerHTML = 'EZ !';
