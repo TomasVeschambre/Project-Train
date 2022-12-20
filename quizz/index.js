@@ -38,7 +38,7 @@ const quizData = [
 
 let currentQuiz=0
 let score=0
-let submitBtn = document.getElementById('submit')
+let submitBtn = document.getElementsByClassName('btn')
 let answer = document.getElementsByName('answer');    
 
 loadquiz()

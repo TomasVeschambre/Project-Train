@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Poppins;
+    color: white;
+}
+
+section{
+    background: linear-gradient(136.16deg, rgba(91, 135, 75, 0.97) 12.91%, rgba(12, 55, 32, 0.87) 87.68%);    height: 100vh;
+}
+
+section .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .right a{
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+header .right a:nth-child(5){
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+section .container .middle{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+
+section .container .middle .left{
+    background-image: url(./assets/img/shadow.png);
+    background-size: 100% 100%;
+}
+
+
+section .container .middle .right{
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+section .container .middle .right .bloc-text span{
+    font-size: 16.97px
+}
+
+section .container .middle .right .bloc-text h1{
+    font-size: 57.71px;
+    font-weight: 900;
+    line-height: 62.9px;
+    padding-top: 30px;
+}
+
+section .container .middle .right .bloc-text p{
+    font-size: 13.58px;
+    padding-top: 30px;
+}
+
+section .container .middle .right .bloc-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    padding-top: 50px;
+}
+
+section .container .middle .right .bloc-btn .book-now {
+    background-image: url(./assets/svg/btn-svg-filled.svg);
+    background-size: 100% 100%;
+    width: 170px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+section .container .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+section .container .bottom .btn-bottom{
+    padding: 10px 20px;
+    background-image: url(./assets/svg/btn-svg-not-filled.svg);
+    background-size: 100% 100%;
+    width: 170px;
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
