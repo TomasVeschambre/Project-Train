@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+section .container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background: linear-gradient(136.16deg, rgba(13, 7, 46, 0.97) 12.91%, rgba(8, 7, 44, 0.87) 87.68%);    height: 100vh;
+
+}
+
+section .container .left {
+    background-image: url(./assets/img/bg-left.png);
+    background-size: 100% 100%;
+    width: 50%;
+    padding-left: 178px;
+    padding-top: 139px;
+}
+
+section .container .right a{
+    margin-left: 30px;
+    font-size: 20px;    
+    color: grey;
+    font-family: Poppins; 
+}
+
+.bg-right img{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.particle img{
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -190px);
+}
+
+section .container .right{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 70px;
+    margin-left: 160px;
+}
+
+section .container .right .bloc-text{
+    padding-top: 150px;
+    font-size: 50px;
+    width: 70%;
+    color:  white;
+}
+
+section .container .right .middle .btn-content{
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+.trait{
+    width: 500px;
+    height: 2px;
+    background: linear-gradient(to right, #445682, #263556);
+    border-radius: 50px;
+    margin-top: 60px;
+}
+
+section .container .right .middle .btn-content a{
+    border-width: 10px;
+    border: 2px solid black;
+    padding: 20px 30px;
+    border-radius: 50px;
+    border-color: rgb(231, 23, 231);
+    color: white;
+}
+
+section .container .right .bottom .energy .bolt{
+    height: 70px;
+}
+
+section .container .right .bottom{
+    display: flex;
+    flex-direction: row;
+}
+
+section .container .right .bottom .energy{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+section .container .right .bottom .energy .text-energy{
+    color:  white;
+    margin-left: 10px;
+    width: 150px;
+}
+
+section .container .right .bottom .force{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+section .container .right .bottom .force .text-force{
+    color:  white;
+    margin-left: 10px;
+    width: 150px;
+}
+
+section .container .right .bottom .stamina{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+}
+
+section .container .right .bottom .stamina .text-stamina{
+    color:  white;
+    margin-left: 10px;
+    width: 150px;
+}
+
+section .container .right .foot{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+section .container .right .foot a{
+    color: grey;
+    font-family: Poppins; 
+}
+
+section .container .right a:hover{
+    color: white;
+}
+
+section .container .right .foot a:hover{
+    color: white;
+}
+
+section .container .right .middle .btn-content a:hover{
+    background: linear-gradient(136.16deg, rgba(255, 114, 225, 0.97) 12.91%, rgba(247, 19, 228, 0.87) 87.68%);    height: 100vh;
+}
